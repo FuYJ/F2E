@@ -1,0 +1,121 @@
+body{
+  margin: 0px;
+  padding: 0px 150px 0px 150px;
+  background-color: #FE7701;
+}
+
+header{
+    margin-top: 30px;
+    margin-right: 134px;
+    margin-bottom: 18px;
+    margin-left: 25px;
+}
+
+nav{
+    width: 960px;
+    height: 50px;
+    margin-bottom: 19px;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#Services{
+    width: 300px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 25px;
+}
+
+#Portfolio{
+    width: 300px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+
+#Testimonials{
+    width: 300px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+#title_Services{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.content_Services{
+    width: 239px;
+    height: 40px;
+}
+
+#title_Portfolio{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.content_Portfolio_left{
+    width: 90px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    float: left;
+}
+
+.content_Portfolio_right{
+    width: 90px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#title_Testimonials{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#content_Testimonials{
+    width: 300px;
+    height: 136px;
+}
+
+.header_logo{
+    width: 140px;
+    height: 57px;
+    margin-right: 491px;
+}
+
+.header_button{
+    background-color: inherit;
+    border: none;
+}
+
+.header_button_img{
+    width: 50px;
+    height: 50px;
+}
+
+.slider_box{
+    width: 960px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.content_row_1{
+    margin-bottom: 40px;
+    clear: both;
+}
+
+.box_title{
+    background-color: white;
+    color: #FE7701;
+}
+
+.box_shadow{
+    box-shadow: -5px 5px 0 0 #A54D05;
+}
