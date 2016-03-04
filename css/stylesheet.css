@@ -162,7 +162,7 @@ footer{
     float: left;
     color: #404040;
     box-sizing: border-box;
-    font-size: 12pt;
+    font-size: 12px;
     font-family: Arial;
 }
 
@@ -183,11 +183,13 @@ footer{
 .content_Testimonials{
     width: 300px;
     height: 136px;
-    padding: 13px 15px;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-right: 22px;
     box-sizing: border-box;
-    font-size: 12pt;
+    font-size: 12px;
     font-family: Arial;
-    line-height: 100% + 13px;
+    line-height: 1.5em;
 }
 
 .content_OurBlog{
@@ -209,14 +211,14 @@ footer{
 }
 
 .content_OurBlog_text_title{
-font-size: 16pt;
+font-size: 16px;
 font-family: Arial;
 color: #404040;
 margin-bottom: 8px;
 }
 
 .content_OurBlog_text_date{
-font-size: 10pt;
+font-size: 10px;
 font-family: Arial;
 font-style: italic;
 color: #A54E03;
@@ -232,23 +234,27 @@ color: #A54E03;
 .content_LatestTweets_inside{
     border:1px #A54E03 hidden;
     width: 270px;
-    line-height: 100% + 14px;
+    line-height: 1em + 11px;
+}
+
+.content_LatestTweets_inside_row{
+    padding: 14px 0px;
 }
 
 .content_LatestTweets_ID{
-    font-size: 14pt;
+    font-size: 14px;
     color: #A54E03;
     font-family: Arial;
 }
 
 .content_LatestTweets_text{
-    font-size: 14pt;
+    font-size: 14px;
     color: #404040;
     font-family: Arial;
 }
 
 .content_LatestTweets_link{
-    font-size: 10pt;
+    font-size: 11px;
     color: #A54E03;
     font-family: Arial;
     font-style: italic;
@@ -264,7 +270,7 @@ color: #A54E03;
 
 .box_title{
     color: #FE7701;
-    font-size: 14pt;
+    font-size: 14px;
     font-family: Arial;
     font-weight: bold;
 }
