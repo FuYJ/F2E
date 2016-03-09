@@ -1,30 +1,31 @@
-body{
-  margin: 0px;
-  background-color: #FE7701;
+body {
+    margin: 0px;
+    background-color: #FE7701;
 }
-
-header{
+header {
     margin-top: 30px;
-    margin-right: 134px;
+    margin-right: 124px;
     margin-bottom: 18px;
     margin-left: 25px;
 }
-
-nav{
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+nav {
     width: 960px;
-        height: 50px;
+    height: 50px;
     margin-bottom: 19px;
     padding: 16px 30px;
     box-sizing: border-box;
 }
-
-nav a{
+nav a {
     text-decoration: none;
     color: inherit;
     padding-right: 30px;
 }
-
-footer{
+footer {
     height: 50px;
     padding: 16px 295px 16px 180px;
     clear: both;
@@ -32,128 +33,126 @@ footer{
     background-color: #404040;
     box-sizing: border-box;
 }
-
-#Services{
+footer:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#Services {
     width: 300px;
     height: 246px;
     float: left;
     margin-top: 0px;
     margin-right: 30px;
 }
-
-#Portfolio{
+#Portfolio {
     width: 300px;
     height: 246px;
     float: left;
     margin-right: 30px;
     margin-top: 0px;
 }
-
-#Testimonials{
+#Testimonials {
     width: 300px;
     height: 246px;
     float: left;
     margin-top: 0px;
 }
-
-#OurBlog{
+#OurBlog {
     width: 630px;
     height: 350px;
     float: left;
     margin-top: 0px;
     margin-right: 30px;
 }
-
-#LatestTweets{
+#LatestTweets {
     width: 300px;
     height: 350px;
     float: left;
     margin-top: 0px;
 }
-
-#title_Services{
+#title_Services {
     width: 300px;
-        height: 50px;
+    height: 50px;
     margin-bottom: 15px;
     padding: 16px 30px;
     box-sizing: border-box;
 }
-
-#title_Portfolio{
+#title_Portfolio {
     width: 300px;
-        height: 50px;
+    height: 50px;
     margin-bottom: 20px;
     padding: 16px 30px;
     box-sizing: border-box;
 }
-
-#title_Testimonials{
+#title_Testimonials {
     width: 300px;
-        height: 50px;
+    height: 50px;
     margin-bottom: 20px;
     padding: 16px 30px;
     box-sizing: border-box;
 }
-
-#title_OurBlog{
+#title_OurBlog {
     width: 630px;
-        height: 50px;
+    height: 50px;
     margin-bottom: 20px;
     padding: 16px 30px;
     box-sizing: border-box;
 }
-
-#title_LatestTweets{
+#title_LatestTweets {
     width: 300px;
-        height: 50px;
+    height: 50px;
     margin-bottom: 20px;
     padding: 16px 30px;
     box-sizing: border-box;
 }
-
-#main_area{
-        padding: 0px 150px 0px 150px;
+#main_area {
+    padding: 0px 150px 0px 150px;
 }
-
-.header_logo{
+.container {
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_logo {
     width: 140px;
     height: 57px;
-    margin-right: 491px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
 }
-
-.header_button{
+.header_button {
     background-color: inherit;
-    border: none;
-}
-
-.header_button_img{
+    border: 0px none;
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+    float: right;
     width: 50px;
     height: 50px;
 }
-
-.slider_box{
+.header_button_img {
+    width: 50px;
+    height: 50px;
+}
+.slider_box {
     width: 960px;
     height: 500px;
     margin-bottom: 20px;
 }
-
-.content_row{
+.content_row:after {
     clear: both;
 }
-
-.content_Services{
+.content_Services {
     width: 249px;
     height: 40px;
     margin-left: 51px;
 }
-
-.content_Services_icon{
+.content_Services_icon {
     width: 40px;
     height: 40px;
     float: left;
 }
-
-.content_Services_text{
+.content_Services_text {
     width: 199px;
     height: 30px;
     margin-top: 5px;
@@ -165,22 +164,19 @@ footer{
     font-size: 12px;
     font-family: Arial;
 }
-
-.content_Portfolio_left{
+.content_Portfolio_left {
     width: 90px;
     height: 50px;
     margin-bottom: 10px;
     margin-right: 15px;
     float: left;
 }
-
-.content_Portfolio_right{
+.content_Portfolio_right {
     width: 90px;
     height: 50px;
     margin-bottom: 10px;
 }
-
-.content_Testimonials{
+.content_Testimonials {
     width: 300px;
     height: 136px;
     padding-top: 13px;
@@ -191,92 +187,77 @@ footer{
     font-family: Arial;
     line-height: 1.5em;
 }
-
-.content_OurBlog{
+.content_OurBlog {
     width: 630px;
     height: 80px;
     margin-bottom: 10px;
 }
-
-.content_OurBlog_bg{
+.content_OurBlog_bg {
     padding: 10px;
     float: left;
 }
-
-.content_OurBlog_text{
+.content_OurBlog_text {
     padding-top: 14px;
     padding-bottom: 25px;
     display: inline-block;
     float: left;
 }
-
-.content_OurBlog_text_title{
-font-size: 16px;
-font-family: Arial;
-color: #404040;
-margin-bottom: 8px;
+.content_OurBlog_text_title {
+    font-size: 16px;
+    font-family: Arial;
+    color: #404040;
+    margin-bottom: 8px;
 }
-
-.content_OurBlog_text_date{
-font-size: 10px;
-font-family: Arial;
-font-style: italic;
-color: #A54E03;
+.content_OurBlog_text_date {
+    font-size: 10px;
+    font-family: Arial;
+    font-style: italic;
+    color: #A54E03;
 }
-
-.content_LatestTweets{
+.content_LatestTweets {
     width: 300px;
     height: 260px;
     padding-left: 15px;
     box-sizing: border-box;
 }
-
-.content_LatestTweets_inside{
-    border:1px #A54E03 hidden;
+.content_LatestTweets_inside {
+    border: 1px #A54E03 hidden;
     width: 270px;
     line-height: 1em + 11px;
 }
-
-.content_LatestTweets_inside_row{
+.content_LatestTweets_inside_row {
     padding: 14px 0px;
 }
-
-.content_LatestTweets_ID{
+.content_LatestTweets_ID {
     font-size: 14px;
     color: #A54E03;
     font-family: Arial;
 }
-
-.content_LatestTweets_text{
+.content_LatestTweets_text {
     font-size: 14px;
     color: #404040;
     font-family: Arial;
 }
-
-.content_LatestTweets_link{
+.content_LatestTweets_link {
     font-size: 11px;
     color: #A54E03;
     font-family: Arial;
     font-style: italic;
 }
-
-.footer_left{
+.footer_left {
     float: left;
 }
-
-.footer_right{
+.footer_right {
     float: right;
 }
-
-.box_title{
+.box_title {
     color: #FE7701;
     font-size: 14px;
     font-family: Arial;
     font-weight: bold;
 }
-
-.box_shadow{
+.box_shadow {
     background-color: white;
-    box-shadow: -5px 5px 0 0 #A54D05;
+    box-shadow: -5px 5px 0 0 rgba(165, 77, 5, 0.5);
     border-radius: 5px;
 }
